@@ -28,17 +28,17 @@ Pittsburgh Clojure Users Group
 ### Suggested Subjects
 
 *  Clojure Core
-  *  Agents
-  *  Java Interop
-  *  Threading Operators (->)
+  -  Agents
+  -  Java Interop
+  -  Threading Operators (->)
 *  Clojure Libaries & Applications
-  * Compojure
-  * Incanter
-  * Leiningen
+  -  Compojure
+  -  Incanter
+  -  Leiningen
 *  Environments
-  *  Eclipse
-  *  Emacs/SLIME/Swank
-  *  Netbeans
+  -  Eclipse
+  -  Emacs/SLIME/Swank
+  -  Netbeans
 
 ### Resources
 
