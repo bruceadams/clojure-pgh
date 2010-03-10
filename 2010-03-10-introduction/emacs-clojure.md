@@ -87,7 +87,7 @@ Useful Emacs Commands
 *  `C-c C-d C-d` -- display documentation
 *  `C-c C-z` -- switch to repl buffer
 
-### So many more
+### So Many More
 * [http://www.gnu.org/software/emacs/](http://www.gnu.org/software/emacs/)
 * [http://www.math.uh.edu/~bgb/emacs_keys.html](http://www.math.uh.edu/~bgb/emacs_keys.html)
 * [http://github.com/jochu/swank-clojure](http://github.com/jochu/swank-clojure)
