@@ -20,10 +20,10 @@ Pittsburgh Clojure Users Group
 ### Format for Meetings
 
 *  Structured period for presentations (7pm-8pm) 
-*  Followed by the Unstructured period for coding challenges, games, 
+*  Unstructured period for coding challenges, games, 
    general mischief and carousing 
 *  Variable breakdowns for the structured section, 5/10/15/30/60 
-   minute presentations all fine
+   minute presentations
 
 ### Suggested Subjects
 
@@ -39,10 +39,6 @@ Pittsburgh Clojure Users Group
   *  Eclipse
   *  Emacs/SLIME/Swank
   *  Netbeans
-  *  vi
-*  Concepts in FP
-  * Currying
-  * Higher Order Functions
 
 ### Resources
 
