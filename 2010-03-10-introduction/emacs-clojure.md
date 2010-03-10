@@ -10,7 +10,7 @@ What?
    > editor."
 
    Installed using the normal package manager for your operating
-   system, and configured over long fought battles at the keyboard.
+   system, and configured over long-fought battles at the keyboard.
 
 *  *SLIME & Swank*
 
@@ -58,7 +58,7 @@ How?
 
 1. Install clojure-mode, slime, slime-repl, and swank-clojure using
    ELPA. Whew!
-2. Run emacs and visit the file you to work with.
+2. Run emacs and visit the file you want to work with.
 3. Execute `M-x slime` to start SLIME.
 4. Spend 10 years learning how to work with Emacs.
 
