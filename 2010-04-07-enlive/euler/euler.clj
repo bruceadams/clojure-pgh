@@ -49,15 +49,14 @@
   (let [n (str s)]
     (= (seq n) (reverse n))))
 
-(def threes (range 100 1000))
+(def threes (range 999 99 -1))
 
 (println
  "Euler #4 :"
  (reduce max (filter palindrome?
-                     (apply concat
-                            (map #(map * (repeat %1) %2)
-                                 threes
-                                 (repeat threes))))))
+                     (mapcat #(map * (repeat %1) %2)
+                             threes
+                             (repeat threes)))))
 
 (defn gcd [x y]
   (let [a (min x y)
