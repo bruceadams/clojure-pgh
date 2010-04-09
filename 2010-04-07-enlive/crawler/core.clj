@@ -4,7 +4,6 @@
   (:refer-clojure)
   (:use
    [clojure.set]
-   [clojure.contrib.pprint]
    [clojure.stacktrace]
    [compojure.core]
    [ring.adapter.jetty]
@@ -141,7 +140,7 @@ AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.307.11 Safari/532.9"]
 ;; enlive templating code
 
 ;; snippet template for each link
-(html/defsnippet link-model "html/link.html" [:td]
+(html/defsnippet link-model "/Users/josephgallo/Documents/Work/Personal/Projects/clojure-pgh/2010-04-07-enlive/crawler/html/link.html" [:td]
   [{points :points text :text href :href}]
   [:td.points] (html/do-> (html/content (str points)))
   [:a] (html/do->
@@ -149,7 +148,7 @@ AppleWebKit/532.9 (KHTML, like Gecko) Chrome/5.0.307.11 Safari/532.9"]
         (html/set-attr :href href)))
 
 ;; template for page
-(html/deftemplate merged-template "html/merged.html" [header items]
+(html/deftemplate merged-template "/Users/josephgallo/Documents/Work/Personal/Projects/clojure-pgh/2010-04-07-enlive/crawler/html/merged.html" [header items]
   [:title] (html/content header)
   [:h1] (html/content header)
   [:table :tr] (html/clone-for
